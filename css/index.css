@@ -1,0 +1,290 @@
+/*styles applicable only for index page */
+
+.center_content {
+    float: left;
+    width: 70%;
+    display: block;
+    position: relative;
+}
+
+.right_content {
+    float: left;
+    width: 30%;
+    display: block;
+    position: relative;
+}
+
+.two_panel {
+    overflow: hidden;
+    clear: both;
+}
+
+.center2_content {
+    float: left;
+    width: 50%;
+    display: block;
+    position: relative;
+}
+
+.content_panel {
+    margin: 0px 10px 15px 10px;
+    background-color: #fff;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 0 6px 0 #aaa;
+    -moz-box-shadow: 0 0 6px 0 #aaa;
+    box-shadow: 0 0 6px 0 #aaa;
+}
+
+#gallery {
+    display: block;
+    background-color: #fff;
+    float: left;
+    margin: 0 auto;
+}
+
+.gall-img {
+    width: 65px;
+    height: 65px;
+    display: block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+#social {
+    display: block;
+    background-color: #fff;
+    float: left;
+    margin: 0 auto;
+}
+
+.sc-icn {
+    width: 65px;
+    height: 65px;
+    display: block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.msg-panel {
+    transition: 0.5s;
+}
+
+.msg-data {
+    line-height: 15px;
+    font-size: 12px;
+    color: #000;
+    padding: 5px 0px 0px 0px;
+}
+
+.msg-btns {
+    border-top: 1px solid #ccc;
+    overflow: hidden;
+    display: block;
+    margin-top: 10px;
+}
+
+#msg-btn-left {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    float: left;
+    display: block;
+    margin: 10px 2px 0 0;
+    background: #4782b2;
+    color: #fff;
+    cursor: pointer;
+    background-image: url('../images/left.png');
+    background-size: 15px;
+    background-position: 5px;
+    background-repeat: no-repeat;
+}
+
+#msg-btn-right {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    float: left;
+    display: block;
+    margin: 10px 2px 0 0;
+    background: #4782b2;
+    color: #fff;
+    cursor: pointer;
+    background-image: url('../images/right.png');
+    background-size: 15px;
+    background-position: 5px;
+    background-repeat: no-repeat;
+}
+
+#msg-by {
+    line-height: 15px;
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+    padding: 5px;
+}
+
+
+/* image slider */
+
+#imgsl_prnt {
+    background-color: #1f1f1f;
+    color: #fff;
+    display: block;
+    padding: 40px 10px;
+}
+
+#imgslider {
+    max-width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 0 2px 0 #aaa;
+    -moz-box-shadow: 0 0 2px 0 #aaa;
+    box-shadow: 0 0 2px 0 #aaa;
+}
+
+#slider {
+    height: 350px;
+    display: block;
+}
+
+.slider_img {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#sldimg {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+}
+
+.orangebtn {
+    width: 100% !important;
+}
+
+#btnhold {
+    position: relative;
+    top: -60%;
+}
+
+#imgchanger {
+    width: 100%;
+    height: 50px;
+    display: block;
+}
+
+#img-prev {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 45px;
+    background: url('../images/left.png');
+    float: left;
+    display: inline-block !important;
+    margin: 0px;
+    background: #333333;
+    background-image: url('../images/left.png');
+    background-size: 40px;
+    background-position: 5px;
+    background-repeat: no-repeat;
+    color: #fff;
+    cursor: pointer;
+}
+
+#img-next {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 45px;
+    float: right !important;
+    display: inline-block !important;
+    margin: 0px;
+    background: #333333;
+    background-image: url('../images/right.png');
+    background-size: 40px;
+    background-position: 5px;
+    background-repeat: no-repeat;
+    color: #fff;
+    cursor: pointer;
+}
+
+.slider_cap {
+    background: #333333;
+    min-height: 70px;
+    display: block;
+}
+
+#slider_cap_hd {
+    color: #f8715f !important;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 15px 5px 15px;
+}
+
+#slider_cap_dt {
+    color: #ccc !important;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 2px 15px 5px 15px;
+}
+
+
+/* vertical marquee */
+
+.container-marq {
+    width: calc(100% - 20px);
+    height: auto;
+    margin: 0px auto 10px auto;
+    overflow: hidden;
+    background: white;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.marquee {
+    top: 6em;
+    position: relative;
+    box-sizing: border-box;
+    animation: marquee 15s linear infinite;
+}
+
+.marquee:hover {
+    animation-play-state: paused;
+}
+
+
+/* Make it move! */
+
+@keyframes marquee {
+    0% {
+        top: 8em;
+    }
+    100% {
+        top: -11em;
+    }
+}
+
+.alertanch {
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: red;
+}

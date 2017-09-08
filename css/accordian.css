@@ -1,0 +1,77 @@
+div.acc{
+	transition: 0.4s !important;
+	margin:0px 0px 10px 0px;
+}
+
+/* accordion button style */
+button.accordion {
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.4s !important;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #eee;
+}
+
+button.accordion:after {
+    content: "\2193"; 
+    font-size: 18px;
+    color: #aaa;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2191"; 
+}
+
+
+/* accordion small button style */
+div.accordion {
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    padding: 5px;
+    width: 70px;
+	float:right;
+    text-align: left;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.4s !important;
+}
+
+div.accordion.active, div.accordion:hover {
+    background-color: #eee;
+}
+
+div.accordion:after {
+    content: "View More"; 
+    font-size: 12px;
+    color: #aaa;
+    float: left;
+    margin-left: 5px;
+}
+
+div.accordion.active:after {
+    content: "View Less"; 
+}
+
+/* accordion panel style */
+
+div.ac_panel {
+    padding: 0px 18px;
+    background-color: white;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+

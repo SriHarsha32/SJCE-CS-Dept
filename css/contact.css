@@ -1,0 +1,71 @@
+/*stles for contact form */
+#form{
+    padding: 20px;
+}
+
+#buttons{
+    width: 100%;
+    font-size: 1.4em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#emailtxtbox{
+    position: relative;
+    left: 20px;
+}
+
+#nametxtbox{
+    position: relative;
+    left: 57px;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 6px 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px 15px;
+	margin-top:15px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    resize: none;
+}
+
+#submitbutton{
+    font-size: 0.7em;
+    background-color: #4CAF50;
+	font-weight:400;
+	text-transform:uppercase;
+    padding: 7px;
+	color:#fff;
+	width:25%;
+	float:center;
+    border-radius: 0px;
+    border: 2px solid #4CAF50;
+}
+
+#cancelbutton{
+    font-size: 0.7em;
+    background-color: #EF6C00;
+	font-weight:400;
+	text-transform:uppercase;
+    padding: 7px;
+	color:#fff;
+    border-radius: 0px;
+	width:25%;
+	float:center;
+    border: 2px solid #EF6C00;
+}
+
+
+
+
+
+

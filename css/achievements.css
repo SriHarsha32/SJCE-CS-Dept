@@ -1,0 +1,30 @@
+#companies{
+	display:block;
+	margin:10px;
+	overflow:hidden;
+}
+
+#complist{
+	min-height:70px;
+	overflow:hidden;
+	float: left;
+	margin-top:10px;
+}
+
+.comp-img {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    float: left;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.ach_dets{
+	line-height: 24px;
+    font-size: 16px;
+	color: #999999;
+	padding:8px;
+}

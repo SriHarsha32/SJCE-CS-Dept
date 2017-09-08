@@ -1,0 +1,18 @@
+p{ 
+	text-indent: 70px;
+}
+
+#page_heading>p{ 
+	text-indent: 0px !important;
+}
+
+#bread_crumbs>p{
+	text-indent: 0px !important;
+}
+
+.fac_img{
+	height:320px;
+	width:95%;
+	display:block;
+	margin:10px auto !important;
+}
